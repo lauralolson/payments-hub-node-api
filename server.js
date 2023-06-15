@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 
 const port = 3000
 
-// To hold the payment result data posted by Payment Hub
+// To hold the payment result data posted by Payments Hub
 let paymentResultData
 
 app.post('/getTAC', async (req, res) => {
